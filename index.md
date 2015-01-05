@@ -1,6 +1,6 @@
 ---
 title: Couth
-layout: slate
+layout: default
 ---
 
 Huge
