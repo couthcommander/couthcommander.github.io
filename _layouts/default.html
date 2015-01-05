@@ -27,6 +27,13 @@
    {{ content }}
  </section>
  <footer>
+ <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
  Tags: {{ page.tags }}
  </footer>
  </div>
