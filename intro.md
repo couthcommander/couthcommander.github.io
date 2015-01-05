@@ -1,11 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-</head>
-<body>
-
 <ul>
 {% for post in site.tags.intro %}
 <li>
@@ -17,6 +9,3 @@
 {{ site.tags.intro }}
 
 {{ site.time }}
-
-</body>
-</html>
