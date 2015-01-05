@@ -1,6 +1,6 @@
 ---
 title: Stuff
-layout: post
+layout: default
 tags: intro couth
 ---
 
