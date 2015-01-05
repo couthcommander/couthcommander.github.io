@@ -34,7 +34,10 @@
     </li>
   {% endfor %}
 </ul>
- Tags: {{ page.tags }}
+Tags:
+{% for tag in page.tags %}
+{{ tag }}
+{% endfor %}
  </footer>
  </div>
  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
