@@ -3,4 +3,10 @@ title: Couth
 layout: default
 ---
 
-Huge
+<ul>
+{% for tag in site.tags %}
+<li>
+  <a href="{{ tag }}">{{ tag }}</a>
+</li>
+{% endfor %}
+</ul>
