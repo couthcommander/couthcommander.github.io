@@ -1,6 +1,6 @@
 ---
 title: Couth
-tags: intro couth
+layout: default
 ---
 
 Huge
