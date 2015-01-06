@@ -9,7 +9,3 @@ title: Intro
 </li>
 {% endfor %}
 </ul>
-
-{{ site.tags.intro }}
-
-{{ site.time }}
