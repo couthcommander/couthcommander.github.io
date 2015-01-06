@@ -1,3 +1,7 @@
+---
+title: Intro
+---
+
 <ul>
 {% for post in site.tags.intro %}
 <li>
