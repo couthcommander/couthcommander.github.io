@@ -1,8 +1,23 @@
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      author: "Cole"
+timezone: America/Chicago
+highlighter: pygments
+markdown: redcarpet
+permalink: /post/:title
+
+redcarpet:
+  extensions: [autolink]
+
+exclude: [README.md]
+
+paginate: 5
+paginate_path: '/blog/:num'
+
+excerpt_separator: "\n\n\n"
+
+# own settings
+name: minddust
+domain: minddust.com
+url: http://biostat.mc.vanderbilt.edu/ColeBeck
+description: Huge
+copyright: 2015
+author:
+    name: Cole Beck

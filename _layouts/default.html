@@ -1,39 +1,39 @@
-<!doctype html>
-<html>
- <head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="chrome=1">
- <title>{{ page.title }}</title>
-
- <link rel="stylesheet" href="/stylesheets/styles.css">
- <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
- <script src="/javascripts/scale.fix.js"></script>
- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
- <!--[if lt IE 9]>
- <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <![endif]-->
- </head>
- <body>
- <div class="wrapper">
- <header>
- <h1 class="header">Couth</h1>
- <p class="header"></p>
- <ul>
- <li><a class="buttons github" href="https://github.com/couthcommander">GitHub Profile</a></li>
- </ul>
- </header>
- <section>By {{ page.author }}</section>
- <section>
-   {{ content }}
- </section>
- <footer>
-Tags:
-{% for tag in page.tags %}
-<a href='/{{ tag }}'>{{ tag }}</a>
-{% endfor %}
- </footer>
- </div>
- <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
- </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="author" content="{{ site.author.name }}">{% if page.description %}
+        <meta name="description" content="{{ page.description }}">{% endif %}
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/res/minddust.min.css">
+    </head>
+    <body>
+        <div id="site">
+            <div class="container">
+                <div id="header">
+                    <!--[if lt IE 8]>
+                        <div class="alert alert-danger">
+                            <p><b>You are using an outdated browser!</b></p>
+                            <p>This can lead to some serious problems and is generally unsave!</p>
+                            <p>Please use new version of <a href='http://www.mozilla.org/firefox'>Firefox</a>, <a href='http://www.google.com/chrome'>Chrome</a> or <a href='http://www.apple.com/safari'>Safari</a>.</p>
+                        </div>
+                    <![endif]-->
+                    <a href="/" class="label label-darkblue">{{ site.name }}</a>
+                    <a href="/blog/" class="label label-darkblue" data-toggle="tooltip" title="Articles"><i class="fa fa-bars"></i></a>
+                </div>
+                <div id="content">
+{{ content }}
+                </div>
+            </div>
+            <div id="push"></div>
+        </div>
+        <footer>
+            <div class="footer-table">
+                <div class="footer-cell">&copy; {{ site.domain }}, {{ site.copyright }} &ndash; <a href="/imprint/">imprint</a></div>
+            </div>
+        </footer>
+    </body>
 </html>
