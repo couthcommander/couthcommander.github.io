@@ -9,7 +9,8 @@ title: Site Tags
 
 <div id="post-content">
     {% if site.data.tags %}
-        {% for data_tag in site.data.tags | sort: 'name' %}
+        {% tags = site.data.tags | sort: 'name' }
+        {% for data_tag in tags %}
             <section class="post">
                 <header class="post-header">
                     <h4 class="post-title"><a href="/blog/tag/{{ data_tag.slug }}/">{{ data_tag.name }}</a></h4>
