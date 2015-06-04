@@ -9,7 +9,7 @@ title: Site Tags
 
 <div id="post-content">
     {% if site.data.tags %}
-        {% tags = site.data.tags | sort: 'name' }
+        {% tags = site.data.tags | sort: 'name' %}
         {% for data_tag in tags %}
             <section class="post">
                 <header class="post-header">
