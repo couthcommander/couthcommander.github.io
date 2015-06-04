@@ -2,21 +2,6 @@
 layout: default
 ---
 
-<header id="post-header">
-    <h1 id="post-title">
-        <a href="/" id="logo-md-home-link">
-            <div class="logo-md-home">
-                <div class="m-left"></div>
-                <div class="m-middle"></div>
-                <div class="m-right"></div>
-                <div class="d-outer"></div>
-                <div class="d-inner"></div>
-            </div>
-        </a>
-    </h1>
-</header>
-
-
 {% if site.posts.size > 0 %}
     <div class="list-group">
         {% for post in site.posts limit: 10 %}

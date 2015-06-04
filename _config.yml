@@ -13,11 +13,10 @@ paginate_path: '/blog/:num'
 
 excerpt_separator: "\n\n\n"
 
-# own settings
-name: minddust
-domain: minddust.com
+name: KenBeck
+domain: KenBeckTN.com
 url: http://biostat.mc.vanderbilt.edu/ColeBeck
-description: Huge
+description: Articles by Ken Beck
 copyright: 2015
 author:
     name: Cole Beck
