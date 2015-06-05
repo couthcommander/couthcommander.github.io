@@ -1,0 +1,15 @@
+body {
+  padding-top: 50px;
+}
+#post-content {
+  padding: 5% 17.5%;
+}
+#post-header{padding:0 0 80px;text-align:center;border-bottom:5px solid #242a3a}
+#post-title{font-size:52px;font-weight:700;text-transform:uppercase;word-wrap:break-word}
+#post-subtitle{color:#999}
+#post-header{padding:0 0 20px}
+#post-meta{margin-top:30px;color:#999;font-style:italic}
+
+footer{position:relative;height:49px;border-top:1px solid #ddd;background:#fafafa;font-size:12px;text-transform:uppercase;color:#bbb}
+footer div.footer-table{display:table;margin:auto;height:49px}
+footer div.footer-table div.footer-cell{display:table-cell;vertical-align:middle}
