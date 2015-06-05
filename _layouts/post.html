@@ -14,7 +14,7 @@ layout: default
         {{ content }}
 
         {% if post.tags.size > 0 %}
-            {% capture tags_content %} with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+            {% capture tags_content %} Published in: {% endcapture %}
             {% for post_tag in post.tags %}
                 {% for data_tag in site.data.tags %}
                     {% if data_tag.slug == post_tag %}
