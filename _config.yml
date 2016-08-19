@@ -1,10 +1,7 @@
 timezone: America/Chicago
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 permalink: /post/:title
-
-redcarpet:
-  extensions: [autolink]
 
 exclude: [README.md]
 
