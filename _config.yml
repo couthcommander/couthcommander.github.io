@@ -20,4 +20,5 @@ author:
 
 collections:
   images:
+    path: images/
     output: true
