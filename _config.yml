@@ -19,6 +19,5 @@ author:
     name: Cole Beck
 
 collections:
-  images:
-    path: images/
+  contrib:
     output: true
