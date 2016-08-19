@@ -17,3 +17,7 @@ description: Articles by Ken Beck
 copyright: 2015
 author:
     name: Cole Beck
+
+collections:
+  images:
+    output: true
